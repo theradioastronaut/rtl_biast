@@ -130,5 +130,7 @@ int r82xx_set_nomod(struct r82xx_priv *priv);
 int r82xx_set_dither(struct r82xx_priv *priv, int dither);
 int r82xx_set_bw(struct r82xx_priv *priv, uint32_t bw);
 int r82xx_set_if_freq(struct r82xx_priv *priv, uint32_t freq);
+int r820t_calibrate(struct r82xx_priv *priv);
 
 #endif
+
